@@ -1,0 +1,208 @@
+/* General Styles */
+* {
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #002e5d, #8ed8fd);
+    color: gold;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: calc(2vw + 10px);
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover {
+    animation: hoverEffect 0.5s ease;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #71fc7667;
+}
+
+.animation-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.animation-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.animation-container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.animation-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.animation-container button:hover {
+    background-color: #45a049;
+}
+
+.video-container {
+    margin: 0;
+}
+
+#products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #00ffa642;
+}
+
+.description-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description {
+    font-size: 16px;
+    margin: 10px 0;
+    opacity: 0;
+    max-width: 0;
+    animation-name: paragraphExpand;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#contact {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #003366;
+    text-align: center;
+    color: gold;
+    padding: 3px;
+}
+
+#Orderbtn {
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 500px;
+}
+
+/* Slideshow Styles */
+.slideshow {
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    font-size: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #68e648b7;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.slideshow p {
+    display: none;
+}
+
+.slideshow p.active {
+    display: block;
+}
+
+@keyframes hoverEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes paragraphExpand {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        max-width: 100%;
+        opacity: 1;
+    }
+}
+
+#contact{
+    background-color: #ffff7c;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(0, 0, 78);
+    cursor: pointer;
+}
+
+#contact a:hover {
+    color: rgb(0, 0, 255);
+}
