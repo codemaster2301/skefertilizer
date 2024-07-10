@@ -392,25 +392,25 @@ table caption {
 #contacts-container a:nth-child(1) {
     top: 10vh;
     left: 50%;
-    transform: rotateY(-35deg);
+    transform: rotateY(-25deg);
 }
 
 #contacts-container a:nth-child(2) {
     top: 25vh;
     right: 50%;
-    transform: rotateY(35deg); 
+    transform: rotateY(25deg); 
 }
 
 #contacts-container a:nth-child(3) {
     top: 45vh;
     left: 50%;
-    transform: rotateY(-35deg);
+    transform: rotateY(-25deg);
 }
 
 #contacts-container a:nth-child(4) {
     top: 60vh;
     right: 50%;
-    transform: rotateY(35deg);
+    transform: rotateY(25deg);
 }
 
 #contacts-container a:hover {
