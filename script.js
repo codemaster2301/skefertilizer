@@ -59,7 +59,7 @@ function calculateTotalPrice() {
 // Function to open WhatsApp with a pre-filled message
 function sendMessage() {
     const phoneNumber = "+919482379110";
-    const textMessage = "Hi, I am interested in your products.";
+    const textMessage = "hi";
     const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(phoneNumber)}&text=${encodeURIComponent(textMessage)}`;
     window.open(url, '_blank');
 }
