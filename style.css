@@ -188,7 +188,7 @@ section {
 }
 
 .card {
-    width: min(400px, 60%);
+    width: min(425px, 65%);
     height: auto;
     border-radius: 20px;
     margin: 10px;
